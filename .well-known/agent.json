@@ -1,0 +1,50 @@
+{
+  "name": "thermal-management-mcp",
+  "description": "thermal-management-mcp \u2014 MCP server by MEOK AI Labs.",
+  "url": "https://proofof.ai/scorecard/thermal-management-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "simulate_marangoni_flow",
+      "name": "Simulate Marangoni Flow",
+      "description": "simulate_marangoni_flow via thermal-management-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "calculate_capillary_limit",
+      "name": "Calculate Capillary Limit",
+      "description": "calculate_capillary_limit via thermal-management-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "meok_upsell",
+      "name": "Meok Upsell",
+      "description": "meok_upsell via thermal-management-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# thermal-management-mcp
+
+> thermal-management-mcp — MCP server by MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- simulate_marangoni_flow
+- calculate_capillary_limit
+
+## Install
+```
+pip install thermal-management-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/thermal-management-mcp/
+- Docs: https://meok.ai

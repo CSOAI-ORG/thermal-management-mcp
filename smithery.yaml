@@ -1,0 +1,19 @@
+name: thermal-management-mcp
+description: "MEOK AI Labs — Thermal Management Mcp"
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/MEOK-AI-Labs/thermal-management-mcp
+license: MIT
+categories:
+  - compliance
+  - ai
+  - governance
+
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+    - fastapi
+    - uvicorn
+    - mcp

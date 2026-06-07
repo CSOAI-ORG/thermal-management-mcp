@@ -1,0 +1,21 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "thermal-management-mcp",
+    "description": "thermal-management-mcp \u2014 MCP server by MEOK AI Labs.",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "thermal-management-mcp"
+      }
+    ],
+    "capabilities": [
+      "simulate_marangoni_flow",
+      "calculate_capillary_limit",
+      "meok_upsell"
+    ]
+  }
+}

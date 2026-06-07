@@ -1,0 +1,19 @@
+{
+  "name": "thermal-management-mcp",
+  "title": "Thermal Management Mcp",
+  "description": "thermal-management-mcp \u2014 MCP server by MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "simulate_marangoni_flow"
+    },
+    {
+      "name": "calculate_capillary_limit"
+    }
+  ]
+}
